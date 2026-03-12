@@ -1,14 +1,12 @@
 management:
   endpoints:
     web:
-      base-path: /dashboard
+      base-path: /dashboard-prod
       exposure:
         include: health
   endpoint:
     health:
       show-details: always
-    metrics:
-      enabled: false
   health:
     defaults:
       enabled: true
